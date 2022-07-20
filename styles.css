@@ -59,16 +59,62 @@ main {
 }
 
 #left-panel {
-    width: 67.5%;
+    width: 75.7%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.card {
+.first-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black 2px;
+    height: 25%;
+    padding: 15px
+}
+
+.second-row {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
     border: solid black 2px;
     height: 25%;
     padding: 15px;
+    column-gap: 2em;
+}
+.third-row {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: space-around;
+    border: solid black 2px;
+    height: 25%;
+    padding: 15px;
+    column-gap: 2em;
+
+}
+
+#first-set {
+    color: white;
+    background-color: black;
+    width: 9%;
+    height: 90%;
+}
+
+#second-set {
+    color: white;
+    background-color: black;
+    width: 9%;
+    height: 90%;
+}
+
+#third-set {
+    color: white;
+    background-color: black;
+    width: 9%;
+    height: 90%;
 }
 
 ul {
@@ -80,7 +126,7 @@ li {
 }
 
 #right-panel {
-    width: 27.5%;
+    width: 20%;
     padding: 15px;
     border: solid black 2px;
 }
