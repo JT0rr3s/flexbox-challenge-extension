@@ -6,8 +6,7 @@
 
 /* navbar stylings */
 
-nav, 
-nav * {
+nav, nav * {
     display: flex;
     justify-content: center;
     align-items: center;
